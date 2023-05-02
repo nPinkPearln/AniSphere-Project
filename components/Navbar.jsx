@@ -21,17 +21,17 @@ const CustomNavbar = () => {
           <Nav className="me-auto">
             <Nav.Link href="/">หน้าแรก</Nav.Link>
             <NavDropdown title="หมวดหมู่" id="nav-dropdown">
-              <NavDropdown.Item className="me-auto" href="/product/all-products">หมวดหมู่ทั้งหมด</NavDropdown.Item>
+              <NavDropdown.Item className="me-auto" href="/all-products">หมวดหมู่ทั้งหมด</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item className="me-auto" href="/product/all-products">ฟิกเกอร์</NavDropdown.Item>
-              <NavDropdown.Item className="me-auto" href="/product/all-products">พวงกุญแจ</NavDropdown.Item>
-              <NavDropdown.Item className="me-auto" href="/product/all-products">หนังสือการ์ตูน</NavDropdown.Item>
+              <NavDropdown.Item className="me-auto" href="/all-products">ฟิกเกอร์</NavDropdown.Item>
+              <NavDropdown.Item className="me-auto" href="/all-products">พวงกุญแจ</NavDropdown.Item>
+              <NavDropdown.Item className="me-auto" href="/all-products">หนังสือการ์ตูน</NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="#">แนะนำสินค้า</Nav.Link>
             <Nav.Link href="#">โปรโมชั่น</Nav.Link>
             <Nav.Link href="#">พอยต์แลกของ</Nav.Link>
-            <Nav.Link href="/product/about">เกี่ยวกับ</Nav.Link>
-            <Nav.Link href="/product/contact">ติดต่อ</Nav.Link>
+            <Nav.Link href="/about">เกี่ยวกับ</Nav.Link>
+            <Nav.Link href="/contact">ติดต่อ</Nav.Link>
           </Nav>
           
           <Nav.Item className={styles.spaceRight}>
@@ -51,13 +51,13 @@ const CustomNavbar = () => {
                 <span>บัญชี</span>
               </div>
             }
-            id="nav-dropdown"
+            id="nav-dropdown1"
           >
           
-              <NavDropdown.Item className="me-auto" href="/product/all-products">บัญชี</NavDropdown.Item>
+              <NavDropdown.Item className="me-auto" href="/all-products">บัญชี</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item className="me-auto" href="/product/login">เข้าสู่ระบบ</NavDropdown.Item>
-              <NavDropdown.Item className="me-auto" href="/product/register">สมัครสมาชิก</NavDropdown.Item>
+              <NavDropdown.Item className="me-auto" href="/login">เข้าสู่ระบบ</NavDropdown.Item>
+              <NavDropdown.Item className="me-auto" href="/register">สมัครสมาชิก</NavDropdown.Item>
             </NavDropdown>
           {showCart && <Cart setShowCart={setShowCart} />}
         </Navbar.Collapse>
