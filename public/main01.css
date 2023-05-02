@@ -1,0 +1,146 @@
+@charset "utf-8";
+/* CSS Document */
+a{
+	text-decoration:none;
+}
+body {
+font-family: Mitr;
+background-color: #ECF2FF;
+}
+/* nav button */
+.nav-link{
+	color: whitesmoke;
+	transition: all 0.2s ease-in-out;
+}
+
+.nav-link:hover{
+	color: #655DBB;
+	background-color: white;
+	border-radius: 16px;
+}
+/* กล่องหมวดหมู่ */
+.category-button{
+	background-color: white;
+
+	width: 95%;
+	transition: all 0.2s ease-in-out;
+}
+.category-button:hover{
+	background-color: #655DBB;
+
+	color:white;
+	width: 100%;
+}
+/* ดูเพิ่มเติม */
+.openmore{
+	color: #3E54AC;
+	transition: all 0.2s ease-in-out;
+}
+.openmore:hover{
+	color: #BFACE2;
+}
+/* กล่องรายการ */
+.item-list{
+	width: 95%;
+	border: none;
+
+	transition: all 0.2s ease-in-out;
+}
+.item-list:hover{
+	width: 100%;
+	border: solid;
+	border-radius: 20px;
+	border-color: #655DBB;
+	color: #655DBB;
+}
+
+/* กำหนดบรรทัดชื่อสินค้า 
+.cardtextlimit{
+
+	--max-line:2;
+	display: -webkit-box;
+	overflow: hidden;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: var(--max-line);
+
+}*/
+
+/* โปรโมชั่น */
+.promo-list{
+	border: none;
+	transition: all 0.2s ease-in-out;
+}
+.promo-list:hover{
+	border: solid;
+	border-radius: 20px;
+	border-color: #655DBB;
+}
+
+/* Recently viewed */
+.recently-list{
+	border: none;
+	transition: all 0.2s ease-in-out;
+}
+.recently-list:hover{
+	border: solid;
+	border-radius: 20px;
+	border-color: #655DBB;
+}
+/* hover zoom */
+.zoom {
+  transition: all 0.2s ease-in-out;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+
+.accordion-button:enabled{
+	background-color: #BFACE2;
+}
+/* ปุ่มเปลี่ยนหน้า*/		
+.page-link{
+	background-color: white;
+	color: #655DBB;
+}
+.page-link:hover{
+	
+	color: #3E54AC;
+	border-color: #655DBB;
+}
+.paginationactive{
+	background-color: #655DBB;
+	color: white;
+}
+
+.form-check-input:checked{
+	background-color: #655DBB;
+	border-color: #655DBB;
+}
+.responsive {
+	  width: 100%;
+	  max-width: 1400px;
+	  height: auto;
+}
+
+.btn-purple{
+	color: white;
+	background-color: #655DBB;
+	border-color: #655DBB;
+	transition: all 0.2s ease-in-out;
+}
+.btn-purple:hover{
+	color: white;
+	background-color: #413A8C;
+	border-color: #655DBB;
+
+}
+.btn-purple:active{
+	color: white;
+	background-color: #655DBB;
+	border-color: #655DBB;
+	
+}

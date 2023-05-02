@@ -1,0 +1,10 @@
+.input-group {
+    flex-wrap: wrap;
+  }
+  
+  .input-group input {
+    flex: 1 0 100%;
+    margin-bottom: 10px;
+  }
+
+  
