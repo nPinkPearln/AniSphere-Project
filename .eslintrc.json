@@ -4,5 +4,6 @@
   "plugin:react-hooks/recommended",
   "plugin:next/recommended",
   "next/babel",
-  "next/core-web-vitals"]
+  "next/core-web-vitals",
+  "next"]
 }
