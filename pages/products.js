@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react';
-import Link from 'next/link';
 import { Link } from 'next/link';
 import { urlFor } from '../lib/client';
 import { useStateContext } from '../context/StateContext';
