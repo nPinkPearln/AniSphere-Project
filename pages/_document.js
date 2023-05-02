@@ -1,5 +1,7 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document';
 import React from 'react';
+import { Link } from 'next/link';
+
 
 
 class MyDocument extends Document {

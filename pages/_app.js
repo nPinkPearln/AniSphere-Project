@@ -1,5 +1,7 @@
 import React from 'react';
 import { Toaster } from 'react-hot-toast';
+import { Link } from 'next/link';
+
 
 import { Layout } from '../components';
 import '../styles/globals.css';
